@@ -1,3 +1,4 @@
+@use "../utilities/variables" as *;
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +14,7 @@ ul li{
 a{
     text-decoration: none;
     cursor: pointer;
+}
+body{
+    font-family: $font;
 }

@@ -3,6 +3,29 @@
 .nav{
  background-color: $light-grey;
  &__container{
-    @include flex(space-between,center)
+    @include flex(space-between,center);
+    padding: 1em 0;
  }
+ &__center ul {
+      @include flex(space-between,center);
+ li{
+    padding-left: 2em;
+    a{
+        color: $black;
+        padding: 1em;
+    
+    &:hover{
+        background-color: $orange;
+        color: $white;
+
+    }
+   }
+ }
+}
+&__right ul{
+    @include flex(space-between,center);
+    li{
+        padding-left:2em;
+    }
+}
 }
