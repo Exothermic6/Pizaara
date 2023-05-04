@@ -58,3 +58,34 @@ body {
 .nav__right ul li {
   padding-left: 2em;
 }
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.hero__container h1 {
+  font-size: 7rem;
+}
+.hero__left--orange {
+  color: #eea539;
+}
+.hero__left__search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 50%;
+}
+.hero__left__searchinput, .hero__left__search [type=text], .hero__left__search [type=submit] {
+  border: none;
+  outline: none;
+  padding: 1em;
+}
+.hero__left, .hero__right {
+  flex: 1;
+  gap: 2em;
+}
