@@ -1,3 +1,37 @@
 @use "../utilities/mixins" as *;
 @use "../utilities/variables" as *;
 
+.nav{
+    padding: 1em 0;
+    background-color: $light-grey;
+    &__container{
+        @include flex(space-between,center);
+        &__left{
+            padding-top: 0.8em;
+        }
+        &__center{
+            ul{
+                @include flex(space-between,center);
+                padding-top: 1em;
+                li{
+                    font-size: 1.2rem;
+                    padding: 0 1em;
+                    a{
+                        padding: 1em;
+                        &:hover{
+                            background-color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+        &__right{
+            ul{
+                @include flex(space-between,center);
+            }
+            img{
+                padding: 0 1em;
+            }
+        }
+    }
+}

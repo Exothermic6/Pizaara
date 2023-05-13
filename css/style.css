@@ -22,3 +22,43 @@ a {
 body {
   font: "Kanit", sans-serif;
 }
+
+.nav {
+  padding: 1em 0;
+  background-color: #f4f7fb;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.nav__container__left {
+  padding-top: 0.8em;
+}
+.nav__container__center ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  padding-top: 1em;
+}
+.nav__container__center ul li {
+  font-size: 1.2rem;
+  padding: 0 1em;
+}
+.nav__container__center ul li a {
+  padding: 1em;
+}
+.nav__container__center ul li a:hover {
+  background-color: #eea539;
+}
+.nav__container__right ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.nav__container__right img {
+  padding: 0 1em;
+}
