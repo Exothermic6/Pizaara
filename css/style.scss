@@ -1,3 +1,5 @@
 @use "./utilities/base";
-@use "./sections/nav";
-@use "./sections/hero";
+@use "./utilities/mixins";
+@use "./utilities/variables";
+
+@use ""

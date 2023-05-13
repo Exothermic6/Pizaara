@@ -1,20 +1,22 @@
-@use "../utilities/variables" as *;
+@use "./variables" as *;
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .container{
     width: 80%;
     margin: 0 auto;
 }
 ul li{
-    list-style-type: none;
+    list-style: none;
 }
 a{
     text-decoration: none;
+    color: $black;
     cursor: pointer;
 }
 body{
-    font-family: $font;
+    font: $font;
 }
