@@ -136,19 +136,20 @@
         color: $orange; 
     }
         h2{
-            padding: 2em 1em;
+            padding: 1em .4em;
+            font-size: 3rem;
         }
         p{
-            padding-left: 1em;
-            font-weight: bold;
+            padding: 0 0 1em 1.2em;
+            font-size: 1.5rem;
         }
     &__container{
         @include flex(space-between,center);
         text-align: left;
         &__content{
             @include flex(space-evenly,center,column);
-            background-color: $grey;
-            height:98vh;
+            background-color: $light-grey;
+            height:76vh;
             &__qualities{
                 @include flex(space-between,center);
                 background-color: $white;
@@ -165,6 +166,8 @@
                     background-color: $black;
                     border-radius: 50%;
                     padding: 1em;
+                    width: 7vw;
+                    height: 11vh;
                 }
                 div{
                     text-align: left;
