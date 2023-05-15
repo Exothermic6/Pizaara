@@ -142,3 +142,65 @@ body {
   flex-direction: row;
   gap: 1em;
 }
+
+.menu {
+  text-align: center;
+}
+.menu--orange {
+  color: #eea539;
+}
+.menu__list {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(92, 92, 92, 0.397);
+}
+.menu__list ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+}
+.menu__list ul li a h3 {
+  padding: 2em 0;
+}
+.menu__list ul li a:hover {
+  border-bottom: 5px solid #eea539;
+  color: #eea539;
+}
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+.menu__container div button {
+  font-size: 1rem;
+  background-color: #000;
+  color: white;
+  border: black;
+  padding: 1em 4em;
+  margin-top: -1em;
+  font-weight: bold;
+}
+.menu__container__variety {
+  width: 20vw;
+  background-color: #f4f7fb;
+  padding: 2em;
+  padding-top: 10em;
+  margin-top: -10em;
+}
+.menu__container__variety p {
+  padding: 1em 0;
+  color: rgba(92, 92, 92, 0.397);
+}
+.menu button {
+  color: #fff;
+  background-color: #eea539;
+  font-size: 1rem;
+  border: none;
+  padding: 1em 4em;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 3em 0;
+}
