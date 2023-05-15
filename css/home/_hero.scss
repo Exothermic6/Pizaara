@@ -130,3 +130,47 @@
         margin: 3em 0;
     }
 }
+
+.about{
+    span{
+        color: $orange; 
+    }
+        h2{
+            padding: 2em 1em;
+        }
+        p{
+            padding-left: 1em;
+            font-weight: bold;
+        }
+    &__container{
+        @include flex(space-between,center);
+        text-align: left;
+        &__content{
+            @include flex(space-evenly,center,column);
+            background-color: $grey;
+            height:98vh;
+            &__qualities{
+                @include flex(space-between,center);
+                background-color: $white;
+                width: 90%;
+                margin: 0 auto;
+                padding: 1em;
+                border-radius: 10px;
+                text-align: left;
+                p{
+                    color: $grey;
+                }
+                &__img{
+                    @include flex(center,center);
+                    background-color: $black;
+                    border-radius: 50%;
+                    padding: 1em;
+                }
+                div{
+                    text-align: left;
+                }
+            }
+    
+        }
+    }
+}
