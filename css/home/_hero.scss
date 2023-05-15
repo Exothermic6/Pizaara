@@ -1,0 +1,61 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.hero{
+    padding: 3em;
+    &__container{
+        @include flex(space-between,center);
+        // gap: 15em;
+    }
+    &__left{
+        width: 40%;
+        text-align: left;
+        h1{
+            padding: .2em 0;    
+            font-size: 4rem;
+        }
+        &--orange{
+            color: $orange;
+        }
+        &__search{
+            @include flex(center,center);
+            width: 50%;
+            border-radius: 10px;
+            margin: 2em 0;
+            border: 2px solid $black;
+            form{
+                width: 100%;
+                input{
+                    font-size: 1em;
+                    border: none;
+                    width: 60%;
+                }
+            }
+            button{
+                padding: 2em;
+                background-color: $black;
+                color: $white;
+                border: $black;
+                width: 20%;
+                }
+            i{
+                width: 5%;
+            }
+        }
+        &__stats{
+            @include flex(space-between,center,);
+            &__img{
+                @include flex(center,center);
+                background-color: $black;
+                border-radius: 50%;
+                padding: 1em;
+                height: 70px;
+                width: 70px;
+            }
+         &__left,&__center,&__right{
+            background-color: $light-grey;
+            padding:1.5em;    
+         }
+        }
+    }
+}
