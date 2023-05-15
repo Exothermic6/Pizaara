@@ -132,3 +132,13 @@ body {
   background-color: #f4f7fb;
   padding: 1.5em;
 }
+.hero__right {
+  padding-top: 2em;
+}
+.hero__right__img {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  gap: 1em;
+}

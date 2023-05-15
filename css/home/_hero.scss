@@ -58,4 +58,11 @@
          }
         }
     }
+    &__right{
+        padding-top: 2em;
+        &__img{
+            @include flex(space-between,center);
+            gap: 1em;
+        }
+    }
 }
