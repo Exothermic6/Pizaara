@@ -63,6 +63,26 @@ body {
   padding: 0 1em;
 }
 
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.footer__container__socials__left {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.footer__container__center ul li {
+  color: #fff;
+}
+
 .hero {
   padding: 3em;
 }
