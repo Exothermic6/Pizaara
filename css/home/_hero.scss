@@ -181,6 +181,16 @@
 
 
 .contact{
+    padding: 3em 0;
+    span{
+        color: $orange;
+    }
+    p{
+        padding: 1em;
+    }
+    h2{
+        padding: 1em;
+    }
     text-align: center;
     &__container{
         &__images{

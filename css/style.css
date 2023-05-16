@@ -265,7 +265,17 @@ body {
 }
 
 .contact {
+  padding: 3em 0;
   text-align: center;
+}
+.contact span {
+  color: #eea539;
+}
+.contact p {
+  padding: 1em;
+}
+.contact h2 {
+  padding: 1em;
 }
 .contact__container__images {
   display: flex;
