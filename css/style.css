@@ -263,3 +263,20 @@ body {
 .about__container__content__qualities div {
   text-align: left;
 }
+
+.contact {
+  text-align: center;
+}
+.contact__container__images {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+}
+.contact__container__details {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  font-size: 2rem;
+}

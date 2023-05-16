@@ -178,3 +178,17 @@
         }
     }
 }
+
+
+.contact{
+    text-align: center;
+    &__container{
+        &__images{
+            @include flex(space-around,center);
+        }
+        &__details{
+            @include flex(space-between,center);
+            font-size: 2rem;
+        }
+    }
+}
