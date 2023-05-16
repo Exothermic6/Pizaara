@@ -310,3 +310,19 @@ body {
   flex-direction: row;
   font-size: 2rem;
 }
+
+.shop {
+  padding-top: 3em;
+}
+.shop__list {
+  width: 90%;
+}
+.shop__list ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.shop__list ul li a:hover {
+  color: #eea539;
+}

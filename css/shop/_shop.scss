@@ -1,0 +1,19 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.shop{
+    padding-top: 3em;;
+    &__list{
+        width: 90%;
+        ul{
+            @include flex(space-between,center);
+            li{
+                a{
+                    &:hover{
+                        color: $orange;
+                    }
+                }
+            }
+        }
+    }
+}
