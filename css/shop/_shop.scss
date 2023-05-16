@@ -4,16 +4,49 @@
 .shop{
     padding-top: 3em;;
     &__list{
+        border-bottom: 2px solid $grey;
         width: 90%;
+        margin: 0 auto;
         ul{
             @include flex(space-between,center);
             li{
+                padding: 1em 0;
                 a{
+                    padding: 2m 0;  
                     &:hover{
                         color: $orange;
+                        border-bottom: 3px solid $orange;
                     }
                 }
             }
         }
     }
+    &__container{
+        @include flex(space-between,center);
+        margin-top: 2.5em;
+        div{
+            button{
+                font-size: 1rem;
+                background-color: $black;
+                color: white;
+                border: black;
+                padding: 1em 4em;
+                margin-top: -1em;
+                font-weight: bold;
+            }
+
+        }
+        &__variety{
+            width: 20vw;
+            background-color: $light-grey;
+            padding: 2em;
+            padding-top: 10em;
+            margin-top: -10em;
+            p{
+                padding: 1em 0;
+                color: $grey;
+            }
+        }
+    }
+
 }

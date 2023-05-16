@@ -315,7 +315,9 @@ body {
   padding-top: 3em;
 }
 .shop__list {
+  border-bottom: 2px solid rgba(92, 92, 92, 0.397);
   width: 90%;
+  margin: 0 auto;
 }
 .shop__list ul {
   display: flex;
@@ -323,6 +325,40 @@ body {
   text-align: center;
   flex-direction: row;
 }
+.shop__list ul li {
+  padding: 1em 0;
+}
+.shop__list ul li a {
+  padding: 2m 0;
+}
 .shop__list ul li a:hover {
   color: #eea539;
+  border-bottom: 3px solid #eea539;
+}
+.shop__container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+.shop__container div button {
+  font-size: 1rem;
+  background-color: #000;
+  color: white;
+  border: black;
+  padding: 1em 4em;
+  margin-top: -1em;
+  font-weight: bold;
+}
+.shop__container__variety {
+  width: 20vw;
+  background-color: #f4f7fb;
+  padding: 2em;
+  padding-top: 10em;
+  margin-top: -10em;
+}
+.shop__container__variety p {
+  padding: 1em 0;
+  color: rgba(92, 92, 92, 0.397);
 }
