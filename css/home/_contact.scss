@@ -1,0 +1,43 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.contact{
+    padding: 3em 0;
+    span{
+        color: $orange;
+    }
+    p{
+        padding: 1em;
+    }
+    h2{
+        padding: 1em;
+    }
+    text-align: center;
+    &__container{
+        &__details{
+            @include flex(space-between,center);
+            font-size: 1.5rem;
+            margin-top: 3em;
+            &__info{
+                width: 30%;
+                background-color: $light-grey;
+                // margin-top: -3em;
+                &__img{
+                    // @include flex(center,center)
+                    background-color: $light-grey;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    width: 10vh;
+                    height: 10vh;
+                    margin-top: -1.7em;
+                    img{
+                        margin-top: .8em;
+                    }
+                }
+            }
+        }
+    }
+}
+ 
+
+

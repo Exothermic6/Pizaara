@@ -1,0 +1,66 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.menu{
+    &--orange{
+        color: $orange;
+    }
+    text-align: center;
+    &__list{
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 2px solid $grey;
+        ul{
+            @include flex(space-around,center);
+            li{
+                a{
+                    h3{
+                        padding: 2em 0;
+                    }
+                    &:hover{
+                        border-bottom: 5px solid $orange;
+                        color: $orange;
+                    }
+                }
+            }
+        }
+    }
+    &__container{
+        @include flex(space-between,center);
+        margin-top: 2.5em;
+        div{
+            button{
+                font-size: 1rem;
+                background-color: $black;
+                color: white;
+                border: black;
+                padding: 1em 4em;
+                margin-top: -1em;
+                font-weight: bold;
+            }
+
+        }
+        &__variety{
+            width: 20vw;
+            background-color: $light-grey;
+            padding: 2em;
+            padding-top: 10em;
+            margin-top: -10em;
+            p{
+                padding: 1em 0;
+                color: $grey;
+            }
+        }
+    }
+
+    button{
+        color: $white;
+        background-color: $orange;
+        font-size: 1rem;
+        border: none;
+        padding: 1em 4em;
+        font-weight: bold;
+        border-radius: 5px;
+        margin: 3em 0;
+    }
+}
