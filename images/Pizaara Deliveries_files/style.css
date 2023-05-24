@@ -64,16 +64,8 @@ body {
 }
 
 .footer {
-  color: white;
-  background-color: black;
-  padding: 3em 0;
-}
-.footer h3 {
-  font-size: 1.5rem;
-}
-.footer p {
-  font-size: 2rem;
-  text-align: left;
+  background-color: #000;
+  color: #fff;
 }
 .footer__container {
   display: flex;
@@ -81,27 +73,14 @@ body {
   text-align: center;
   flex-direction: row;
 }
-.footer__center ul li a {
-  color: white;
+.footer__container__socials__left {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
 }
-.footer__right form {
-  margin: 3em 0;
-  font-size: 0;
-}
-.footer__right form input {
-  padding: 2em;
-  border: none;
-  outline: none;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.footer__right form button {
-  color: white;
-  background-color: orange;
-  padding: 2em;
-  border: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+.footer__container__center ul li {
+  color: #fff;
 }
 
 .hero {
@@ -357,16 +336,10 @@ body {
 }
 .shop__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   flex-direction: row;
   margin-top: 2.5em;
-}
-.shop__container div {
-  margin-left: 1em;
-}
-.shop__container div img {
-  text-align: center;
 }
 .shop__container div button {
   font-size: 1rem;
@@ -378,7 +351,7 @@ body {
   font-weight: bold;
 }
 .shop__container__variety {
-  width: 18vw;
+  width: 20vw;
   background-color: #f4f7fb;
   padding: 2em;
   padding-top: 10em;

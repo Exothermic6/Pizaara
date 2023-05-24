@@ -150,7 +150,7 @@
         &__content{
             @include flex(space-evenly,center,column);
             background-color: $light-grey;
-            height:76vh;
+            // height:72vh;
             &__qualities{
                 @include flex(space-between,center);
                 background-color: $white;

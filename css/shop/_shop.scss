@@ -22,9 +22,14 @@
         }
     }
     &__container{
-        @include flex(space-between,center);
+        @include flex(space-around,center);
         margin-top: 2.5em;
         div{
+            margin-left: 1em;
+            // margin-right: 1em;
+            img{
+                text-align: center;
+            }
             button{
                 font-size: 1rem;
                 background-color: $black;
@@ -37,7 +42,7 @@
 
         }
         &__variety{
-            width: 20vw;
+            width: 18vw;
             background-color: $light-grey;
             padding: 2em;
             padding-top: 10em;
