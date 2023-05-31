@@ -17,10 +17,6 @@
                     h3{
                         padding: 2em 0;
                     }
-                    &:hover{
-                        border-bottom: 5px solid $orange;
-                        color: $orange;
-                    }
                 }
             }
         }
@@ -63,4 +59,9 @@
         border-radius: 5px;
         margin: 3em 0;
     }
+}
+
+.active{
+    color: $orange;
+    border-bottom: 2px solid $orange;
 }

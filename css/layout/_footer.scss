@@ -21,15 +21,17 @@
                 li{
                     a{
                         color: white;
+                        padding: 2em 0;
                     }
                 }
             }
         }
         &__right{
             form{
-                margin: 3em 0;
+                margin-top: 3em;
                 font-size: 0;
                 input{
+                    width: 65%;
                     padding: 2em;
                     border: none;
                     outline: none;
@@ -37,6 +39,7 @@
                     border-bottom-left-radius: 5px;
                 }
                 button{
+                    width: 35%;
                     color: white;
                     background-color: orange;
                     padding: 2em;   
